@@ -8,7 +8,7 @@ This project is a **Machine Learning-based Password Strength Checker** that pred
 
 ## Dashboard Screenshot
 
-![Password Strength Checker](static/images/dashboard.png)
+![Password Strength Checker](static/images/password-strength-checker.png)
 
 ## Features
 
