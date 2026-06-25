@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🔒 Password Strength Checker</h1>
+    <p class="subtitle">Machine Learning Based Password Analysis</p>
+
+    <div class="card">
+
+        <label>Password</label>
+
+        <div class="password-box">
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Enter your password">
+
+            <button id="toggleBtn" onclick="togglePassword()">
+                Show
+            </button>
+
+        </div>
+
+        <button class="check-btn" onclick="checkPassword()">
+            Check Strength
+        </button>
+
+        <div class="meter">
+
+            <div id="progress"></div>
+
+        </div>
+
+        <h2 id="result">Waiting for Analysis...</h2>
+
+        <div id="tips" class="tips"></div>
+
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
