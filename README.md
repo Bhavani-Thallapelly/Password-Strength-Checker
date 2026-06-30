@@ -1,5 +1,10 @@
 # 🔒 Machine Learning Password Strength Checker
 
+## Intern Details
+- **Name:** Bhavani Thallapelly
+- **Intern ID:** CITS2673
+- **Organization:** CodeTech IT Solutions
+
 ## Overview
 
 This project is a **Machine Learning-based Password Strength Checker** that predicts whether a password is **Weak**, **Medium**, or **Strong** using a **Random Forest Classifier**. It provides a simple and interactive web interface where users can enter a password and instantly view its predicted strength.
